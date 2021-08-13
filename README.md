@@ -1,2 +1,3 @@
 # SPH
-Smoothed Particle Hydrodinamics initial code
+Smoothed Particle Hydrodinamics initial code.
+
