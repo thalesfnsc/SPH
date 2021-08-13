@@ -64,7 +64,7 @@ def main():
       pos[i][1] = 1            #Increasing only in dimension z
       pos[i][2] = i
     
-    #position visualization
+    #Position visualization
     fig = plt.figure(figsize=(8, 6), dpi=80)
     ax = plt.axes(projection='3d')
    
@@ -72,7 +72,7 @@ def main():
     xdata = pos[:,0][:10] 
     ydata = pos[:,0][:10]
     ax.scatter3D(xdata,ydata,zdata,c=zdata,cmap= "Reds")
-    #plt.show()
+    plt.show()
 
     #TODO:Understand how to generate the density plot and how to use the Kernel function
 
